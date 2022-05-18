@@ -103,11 +103,11 @@ function currentDotActive() {
 
 function leftArrowClick() {
     if (sliderIndex <= 0) {
-        sliderIndex = data.legth --;
+        sliderIndex = data.length - 1;
         setSlide();
         return;
     }
-    sliderIndex --;
+    sliderIndex--;
     setSlide();
 }
 function rightArrowClick() {
